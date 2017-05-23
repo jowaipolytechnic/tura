@@ -368,28 +368,28 @@ function firstChoiceSelected(){
 	var op1=getE('secondPreferenceChoice1');
 	var op2=getE('secondPreferenceChoice2');
 	var op=getE('thirdPreferenceChoice');
-	if (obj.value=='AE')
+	if (obj.value=='ME')
 	{
-		op1.value='AA';
-		op1.innerHTML="Architectural Assistantship";
-		op2.value='CDGT';
-		op2.innerHTML="Costume Design & Garment Technology";
+		op1.value='CA';
+		op1.innerHTML="Computer Application";
+		op2.value='FPP';
+		op2.innerHTML="Food Processing & Preservation";
 		secondChoiceSelected();
 	}
-	if (obj.value=='AA')
+	if (obj.value=='CA')
 	{
-		op1.value='AE';
-		op1.innerHTML="Automobile Engineering";
-		op2.value='CDGT';
-		op2.innerHTML="Costume Design & Garment Technology";
+		op1.value='ME';
+		op1.innerHTML="Medical Electronics";
+		op2.value='FPP';
+		op2.innerHTML="Food Processing & Preservation";
 		secondChoiceSelected();
 	}
-	if (obj.value=='CDGT')
+	if (obj.value=='FPP')
 	{
-		op1.value='AA';
-		op1.innerHTML="Architectural Assistantship";
-		op2.value='AE';
-		op2.innerHTML="Automobile Engineering";
+		op1.value='CA';
+		op1.innerHTML="Computer Application";
+		op2.value='ME';
+		op2.innerHTML="Medical Electronics";
 		secondChoiceSelected();
 	}
 }
